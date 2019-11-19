@@ -1,22 +1,35 @@
+body {
+  background-image: url("/background-help.jpg");
+  background-size: 100%;
+}
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+ul {
+  background-color: grey;
+  list-style: none;
+  margin-top: 500px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+img {
+  width: 130px;
+  height: 100px;
 }
-
-.App-link {
-  color: #09d3ac;
+th,
+td {
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.table {
+  margin-top: 5%;
+}
+div.giff {
+  height: 150px;
+  width: 220px;
+  position: absolute;
+}
+.giff {
+  background-image: url("/heroe-gif.gif");
+  background-size: 220px;
+  background-repeat: no-repeat;
 }
